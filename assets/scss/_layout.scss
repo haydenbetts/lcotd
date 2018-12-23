@@ -54,7 +54,7 @@ hr {
   float: right;
 }
 
-header a.link {
+.intro a.link {
   color: $black-color;
 }
 
@@ -76,10 +76,21 @@ header a.link {
   min-height: 80px;
 }
 
-.site-sub-header {
+.suggestions {
   display: flex;
   justify-content: center;
-  margin-bottom: $small-spacing;
+  align-items: center;
+  flex-flow: column;
+
+  p:last-of-type {
+    border: solid 3px goldenrod;
+    border-radius: 4px;
+    padding: 3px; 
+  }
+}
+
+.suggestions a {
+  color: $blue-color;
 }
 
 .intro {
