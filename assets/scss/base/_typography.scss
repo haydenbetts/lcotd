@@ -51,6 +51,11 @@ p {
   }
 }
 
+.post-title,
+.post-link {
+  font-family: $title-font-family;
+}
+
 a {
   color: $action-color;
   text-decoration: none;

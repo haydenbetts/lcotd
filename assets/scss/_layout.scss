@@ -54,8 +54,12 @@ hr {
   float: right;
 }
 
-.link {
+header a.link {
   color: $black-color;
+}
+
+.link {
+  color: $blue-color;
   padding-bottom: .05em;
   border-bottom: 2px solid transparent;
 
@@ -147,6 +151,7 @@ hr {
   }
 
   .article-title {
+    font-family: $heading-font-family;
     display: inline-block;
     width: 85%;
     //border-bottom: 1px dashed lighten($light-gray-color, 10%);
@@ -172,6 +177,7 @@ hr {
 }
 
 .post-title {
+  font-family: $heading-font-family;
   margin-top: 0;
   margin-bottom: 1em;
   color: $dark-gray-color;
